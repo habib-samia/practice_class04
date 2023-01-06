@@ -1,0 +1,152 @@
+<!doctype.htm>
+<html.lang="en">
+	<head>
+		<meta.charset="UFF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Home</title>
+		<link rel="stylesheet" href="css/style.css">
+
+		<style>
+      .myDiv {
+      border: 5px outset red;
+      background-color: lightblue;    
+      text-align: center;
+      }
+</style>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+	</head>
+
+	<body>
+     
+     <h1> Blocl Level Elements & Inline Elements:</h1>
+
+
+      <article>
+      <h2><span>Facebook</span></h2>
+      <p>Facebook, American online social network service that is part of the company Meta Platforms. Facebook was founded in 2004 by Mark Zuckerberg.</p>
+      </article>
+       
+       <article>
+      <h2><span>Twitter</span></h2>
+      <p>Twitter is what's happening and what people are talking about right now. · We serve the public conversation. · Life's not about a job, it's about purpose.</p>
+      </article>
+
+       <article>
+      <h2><span>Instagram</span></h2>
+      <p>Visual content is the best way to connect with your followers, and Instagram focuses solely on a high-end visual experience. With hundreds of millions of daily active users, it is the most effective platform for engaging audiences.</p>
+      </article>
+
+
+      <aside>
+      Written by <a href="mailto:samiahabib8432.com">Samia Habib</a>.<br>
+      Visit us at:  Facebook.com<br>
+      Dhanmondi,Kalabagan<br>
+      Dhaka<br>
+     </aside>
+
+<p><b>Here is a Quote</b></p>
+     <blockquote cite="https://blog.hubspot.com/sales/famous-quotes">
+     Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking. -Steve Jobs
+   </blockquote>
+
+   <dl>
+      <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+      <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+
+
+  <div class="myDiv">
+  <h2>Html Block & Inline Elements</h2>
+  <p>Practice of lab-04</p>
+</div>
+<p><br></p>
+<table>
+  <tr>
+    <th>Block Elements</th>
+    <th>Inline Elements</th>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>Image</td>
+  </tr>
+  <tr>
+    <td>Article</td>
+    <td>button</td>
+  </tr>
+  <tr>
+    <td>BlockQuote</td>
+    <td>Text-Area</td>
+  </tr>
+</table>
+
+<p><b>Fill-up the form:</b></p>
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+
+<p><b>List:</b></p>
+<ul>
+  <li>Block Elements</li>
+  <li>Inline Elements</li>
+  <li>Inline-Block Elements</li>
+   <li>None Elements</li>
+</ul>
+
+<figure>
+  <img src="images/nature.jpg" alt="Nature">
+  <figcaption>Fig.1 - Nature,Itaty.</figcaption>
+</figure>
+
+<p><br></p>
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+<p>There are two <sup>display</sup> values: block and inline. <b>A block-level </b>element always <em>starts on a new line and takes</em> up the full width available.<b> An inline element</b> does not start on a new <sub>line</sub> and it only takes up as much <i>width as necessary.</i></p>
+<p>Compared to display: block , <big>the major difference is that display:</big> inline-block does not add a line-break after the element, so <small>the element can sit next to other elements.</small></p>
+  The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+<p>Click on one of the text labels to toggle the related radio button:</p>
+  <form action="/action_page.php">
+     <input type="radio" id="html" name="fav_language" value="HTML">
+     <label for="html">HTML</label><br>
+     <input type="radio" id="css" name="fav_language" value="CSS">
+     <label for="css">CSS</label><br>
+     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+     <label for="javascript">JavaScript</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>Margin,Padding,Box-Model:</h1>
+ <div class="box red"></div>
+  <div class="box green"></div>
+
+<p><br></p>
+  <div class="header ">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
+
+  <div class="container">
+     <div class="blog"></div>
+     <div class="contact"></div>
+
+  </div>
+
+    <div class="footer"></div>
+	</body>
+	</html>
